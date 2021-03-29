@@ -1,0 +1,190 @@
+127.0.0.1       localhost
+::1             ip6-localhost
+
+
+#4FYGraphs
+10.255.66.81    grafana.cenam.lan
+
+88.84.81.138    monit
+#       putty sessions\cetus
+35.192.23.252   cetus.dataflow-runner
+35.193.82.198   development-diamiter
+35.232.65.231   development-profiling-1
+35.239.217.198  cetus.production-elasticsearch-1
+104.198.187.147 cetus.production-elasticsearch-2
+35.202.16.61    cetus.production-elasticsearch-3
+35.232.152.206  cetus.production-elasticsearch-4
+35.226.43.8     cetus.production-grafana
+35.225.24.199   cetus.production-influxdb
+35.226.144.236  cetus.production-logsthash-1
+35.202.9.134    cetus.puppet
+#       putty sessions\cetus\red-it
+35.192.35.1     mediation-1
+35.192.46.152   profiling-1
+35.184.149.221  profiling-2
+35.232.65.231   profiling-2 (1)
+#       putty sessions\cetus\red-redis
+35.226.146.187  redis-cache-1
+35.188.60.155   redis-cache-2
+#       putty sessions\cetus\red-rtp
+35.188.127.172  development-freeswitch-1
+35.193.87.164   diameter-1
+35.192.212.146  diameter-2
+35.226.201.40   diameter-3
+35.202.227.145  diameter-4
+35.202.62.110   freeswitch-1
+35.192.164.9    freeswitch-2
+104.197.22.212  freeswitch-3
+35.193.218.72   freeswitch-4
+35.224.93.235   freeswitch-5
+35.224.42.95    freeswitch-6
+35.226.131.18   freeswitch-7
+104.154.171.203 freeswitch-8
+35.188.127.172  freeswitch-9
+104.197.182.45  smsagent-1
+35.239.48.1     smsagent-1 (1)
+#       putty sessions\cetus\red-sip
+35.192.31.59    development-kamalio1
+35.184.185.167  kamailio-1
+35.193.170.88   kamailio-2
+35.202.122.145  kamailio-4
+35.202.115.77   kamailio-3
+#       putty sessions\lhor\cloud-server
+130.211.216.71  lohr.dataflow-runner
+35.238.150.203  lohr.elasticsearch1
+104.154.201.139 lohr.elasticsearch2
+104.154.139.13  lohr.elasticsearch3
+35.226.182.187  stage-lohr-panama-rtp-us-central1-1
+#       putty sessions\lhor\fypxdb1
+10.255.66.100   fypdb1
+10.255.66.78    fypxdb1
+10.255.66.99    fytlxc1
+#       putty sessions\lhor\fypxdb2
+10.255.66.101   fypdb2
+10.255.66.79    fypxdb2
+10.255.66.102   fytas1
+#       putty sessions\lhor\fypxproc1
+10.255.66.81    grafana.cenam.lan  
+10.255.66.81    monitoreo.cenam.lan
+10.255.66.107   fyp-cassandra1
+10.255.66.83    fypdn1
+10.255.66.81    fypmng1
+10.255.66.84    fypsn11
+10.255.66.85    fypsn12
+10.255.66.103   fypsn13
+10.255.66.82    fypsys1
+10.255.66.74    fypxproc1
+#       putty sessions\lhor\fypxproc2
+10.255.66.108   fyp-cassandra2
+10.255.66.88    fypdn2
+172.19.129.29   fypmng1
+10.255.66.86    fypmng2
+10.255.66.89    fypsn21
+10.255.66.90    fypsn22
+10.255.68.104   fypsn23
+10.255.66.87    fypsys2
+10.255.66.75    fypxproc2
+#       putty sessions\lhor\fypxproc3
+10.255.66.112   fyp-am1
+10.255.66.109   fyp-cassandra3
+10.255.66.91    fypdn3
+10.255.66.114   fyp-mep1
+10.255.66.92    fypsn31
+10.255.66.93    fypsn32
+10.255.66.105   fypsn33
+10.255.66.94    fypwap1
+10.255.66.76    fypxproc3
+10.255.66.111   opscenter
+#       putty sessions\lhor\fypxproc4
+10.255.66.113   fyp-am2
+10.255.66.95    fypdn4
+10.255.66.115   fyp-mep2
+10.255.66.96    fypsn41
+10.255.66.97    fypsn42
+10.255.66.106   fypsn43
+10.255.66.98    fypwap2
+10.255.66.77    fypxproc4
+#       putty sessions\vega\morales
+10.201.29.36    fypmng1.vega
+#       putty sessions\vega\portal-servicios
+35.236.1.113    portalservicios-redis-1
+35.236.92.18    production-portalservicios-offerconsumer-1
+35.235.104.45   production-portalservicios-offerconsumer-2
+35.236.124.45   production-portalservicios-offerconsumer-3
+35.235.104.216  production-portalservicios-offerconsumer-4
+35.236.19.161   production-portalservicios-offermanager-1
+35.236.83.128   production-portalservicios-offermanager-2
+35.235.113.164  production-portalservicios-offermanager-3
+35.236.103.196  production-portalservicios-offermanager-4
+35.236.56.4     production-portalservicios-offermanager-5
+35.236.13.59    production-portalservicios-offermanager-6
+35.236.110.90   production-portalservicios-offermanager-7
+35.236.83.18    production-portalservicios-offermanager-8
+35.235.75.122   production-portalservicios-productdispatcher-1
+35.235.120.163  production-portalservicios-productdispatcher-2
+35.236.87.177   production-portalservicios-productdispatcher-3
+35.236.126.151  production-portalservicios-productdispatcher-4
+35.227.189.250  vega.cassandra-node-1
+35.199.162.56   vega.dataflow-runner
+35.222.241.14   vega.sat-push-agent-z219
+35.196.147.130  vega02
+35.233.250.223  vega.freeswitch-bvc-1l46
+35.227.152.186  vega.freeswitch-bvc-5psx
+35.197.99.106   vega.freeswitch-bvc-6ps9
+35.203.185.67   vega.freeswitch-bvc-7hxt
+35.203.128.64   vega.freeswitch-bvc-8gv4
+35.197.101.78   vega.freeswitch-bvc-9rzq
+35.230.18.103   vega.freeswitch-bvc-d729
+35.197.48.33    vega.freeswitch-bvc-hknr
+35.203.156.176  vega.freeswitch-bvc-kksv
+35.230.40.93    vega.freeswitch-bvc-mqf9
+35.227.147.23   vega.freeswitch-bvc-n20m
+35.197.7.104    vega.freeswitch-bvc-qbsc
+35.197.87.214   vega.iface-adelantamegas-1m7g
+34.83.137.191   vega.iface-adelantamegas-6734
+34.83.93.90     vega.iface-adelantamegas-849l
+35.230.101.64   vega.iface-adelantamegas-fpm7
+35.247.48.163   vega.iface-adelantamegas-vr2z
+104.198.109.138 vega.iface-adelantamegas-w8nt
+
+#       putty sessions\antares
+172.19.129.23   antares.fypdn1
+172.19.129.24   antares.fypsn11
+172.19.129.25   antares.fypsn12
+172.19.129.30   antares.fypsn13
+172.19.129.28   antares.fypsys1
+172.19.129.29   antares.fypmng1
+172.19.129.41   antares.fytdbm1
+172.19.129.27   antares.fypweb1
+172.19.129.33   antares.fypdn2
+172.19.129.34   antares.fypsn21
+172.19.129.35   antares.fypsn22
+172.19.129.36   antares.fypsn23
+172.19.129.38   antares.fypsys2
+172.19.129.39   antares.fypmng2
+172.19.129.39   grafana.antares.lan
+
+
+#       putty  sessions\fonyou.cloud\lohr
+104.196.158.220 fonyou.development-mep-lohr-1
+35.231.158.214  fonyou.production-mep-lohr-1
+34.73.232.214   fonyou.production-mep-lohr-2
+35.190.176.131  fonyou.puppet
+#       putty  sessions\fonyou.cloud\vega
+35.231.238.92   fonyou.cassandra-node-1
+
+35.184.157.56	grafana-lohr.fonyou.com
+35.227.216.231 dev-odatos-vega.fonyou.com
+10.255.66.81 grafana.cenam.lan
+10.255.66.81 monitoreo.cenam.lan
+
+10.67.43.201 grafana.sirius.lan
+10.67.43.201 monitoreo.sirius.lan
+
+172.17.227.8 grafana.suno.lan
+172.17.227.8 monitoreo.suno.lan
+
+172.19.129.39 grafana.antares.lan
+127.0.0.1 www.mirillis.com
+127.0.0.1 s0ft4pc.com
+127.0.0.1 serwer2.paka-service.com
